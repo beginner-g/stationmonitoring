@@ -1,0 +1,22 @@
+.homeBg {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/bg.png');
+  background-position: center;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+.homeBg .homeView {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 6.25rem;
+}
+.homeBg .homeView .headerView {
+  display: flex;
+  padding: 1.375rem 0 1.75rem;
+  box-sizing: border-box;
+}
+.homeBg .homeView .headerView .headerCon {
+  width: 100%;
+}
